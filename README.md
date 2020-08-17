@@ -40,6 +40,6 @@ There are multiple places you can share your solution:
 
 **Diviértete y disfruta creando éste reto !** 🚀
 
-## Creaditos por el diseño y reto.
+## Creditos por el diseño y reto.
 
 Este reto pertenece a la lista de retos de [Frontend Mentor](https://www.frontendmentor.io)
