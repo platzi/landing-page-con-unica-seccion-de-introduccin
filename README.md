@@ -36,7 +36,7 @@ There are multiple places you can share your solution:
 
 1. Asegurate de tener tu reto terminado en GitHub y GitHub Pages.
 2. Compartenos en el grupo de Telegram de **Escuela de Desarrollo Web** el número del reto con la URL de tu reto en GitHub Pages y de tu repositorio.
-3. Lanza un tweet a [@platzy](https://twitter.com/platzi) y [@degranda10](https://twitter.com/degranda10)mencionandonos con la URL de GitHub Pages de tu proyecto para que nosotros y toda la comunidad de Platzi podamos verlo y celebrar contigo.
+3. Lanza un tweet a [@platzi](https://twitter.com/platzi) y [@degranda10](https://twitter.com/degranda10)mencionandonos con la URL de GitHub Pages de tu proyecto para que nosotros y toda la comunidad de Platzi podamos verlo y celebrar contigo.
 
 **Diviértete y disfruta creando éste reto !** 🚀
 
