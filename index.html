@@ -3,33 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="main.css">
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-
-    <title>
-      Frontend Mentor | Huddle landing page with single introductory section
-    </title>
-
-    <!-- No dude en eliminar estos estilos o personalizarlos en su propia hoja de estilo 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+<!---------- link fontawesome to get the icons ---------->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    
+    <title>Frontend Mentor | Huddle landing page with single introductory section</title>
   </head>
   <body>
-    Build The Community Your Fans Will Love Huddle re-imagines the way we build
-    communities. You have a voice, but so does your audience. Create connections
-    with your users as you engage in genuine discussion. Register
+    <div class="main-container">
+      <!---------- Header ---------->
+          <header class="header">
+            <img src="./images/logo.svg" alt="Logo Huddle">
+          </header>
+          
+      <!---------- content ---------->
+          <div class="content">
+            <img class="content__img" src="./images/illustration-mockups.svg" alt="Illustration mockups">
+            <div class="content__description">
+              <h1 class="content__title">
+                build the community <br/>your fans will love
+              </h1>
+              <p class="content__paragraph">
+                Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine dicussion.
+              </p>
+              <button class="content__button">Register</button>
+            </div>
+          </div>
+          
+      <!---------- footer ---------->
+          <footer class="footer">
+            <a href="/" class="fab fa-facebook-f"></a>
+            <a href="/" class="fab fa-twitter"></a>
+            <a href="/" class="fab fa-instagram"></a>
+          </footer>
+    </div>
   </body>
 </html>
