@@ -26,7 +26,7 @@ No dudes en utilizar cualquier flujo de trabajo con el que te sienta más cómod
 
 1. Clona éste repo en un repo público desde tu [GitHub](https://github.com/). Esto hará que sea más fácil compartir tu código con la comunidad si necesita ayuda. Si no está seguro de cómo hacer esto, [Lee este recurso - Prueba Git](https://try.github.io/).
 2. Puedes configurar tu repositorio para utilizar GitHub Pages. Esto también será útil si necesita ayuda durante el reto, ya que puede compartir la URL de tu proyecto con la URL de tu repositorio. Hay varias formas de hacer esto, pero recomendamos usar [GitHub Pages](https://pages.github.com/).
-3. Mia los diseños para comenzar a planificar cómo abordaras el proyecto. Este paso es crucial para ayudarte a pensar en las clases de CSS que podría crear para hacer estilos reutilizables.
+3. Mira los diseños para comenzar a planificar cómo abordaras el proyecto. Este paso es crucial para ayudarte a pensar en las clases de CSS que podría crear para hacer estilos reutilizables.
 4. Antes de agregar cualquier estilo, estructura tu contenido con HTML. Crear la arquitectura de tu HTML primero puede ayudarte a centrar tu atención en la estructura de tu contenido.
 5. Escriba los estilos base para tu proyecto, incluidos los estilos de contenido general, como `font-family` y `font-size`.
 
