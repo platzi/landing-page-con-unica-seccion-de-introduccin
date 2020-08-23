@@ -1,4 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap');
+:root{
+    --primary-color: hsl(257, 40%, 49%);
+
+    --mobile-bg-image:url("../images/bg-mobile.svg");
+    --desktop-bg-image:url("../images/bg-desktop.svg");
+    /************** Fonts */
+    /*Body*/
+    --main-font: 'Open Sans', sans-serif;
+    /*Titles*/
+    --secondary-font: 'Poppins', sans-serif;
+    /*Weights*/
+    --normal: 400;
+    --bold: 7q00;
+}
+
 body, a, figure{
     margin: 0;
     padding: 0;
+}
+body{
+    background-image: var(--mobile-bg-image);
+    background-repeat: no-repeat;
+    background-color: var(--primary-color);
 }
