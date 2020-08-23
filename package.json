@@ -1,0 +1,30 @@
+{
+  "name": "landing-page-con-unica-seccion-de-introduccin",
+  "version": "1.0.0",
+  "description": "![Vista previa del diseño de la página de inicio de Huddle con una única sección introductoria](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.3.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-watch": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hec-lopz/landing-page-con-unica-seccion-de-introduccin.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS"
+  ],
+  "author": "Hector Lopez",
+  "license": "(MIT)",
+  "bugs": {
+    "url": "https://github.com/hec-lopz/landing-page-con-unica-seccion-de-introduccin/issues"
+  },
+  "homepage": "https://github.com/hec-lopz/landing-page-con-unica-seccion-de-introduccin#readme"
+}
