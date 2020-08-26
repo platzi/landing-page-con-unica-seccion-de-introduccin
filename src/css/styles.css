@@ -134,6 +134,33 @@ body{
 }
 
 
+/************* Animations */
+
+.mockups-container{
+    animation-name: move-in;
+    animation-duration: 1s;
+}
+.description, .social-container{
+    animation-name: fade-in;
+    animation-duration: 2s;
+
+}
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+@keyframes move-in{
+    from {
+        transform:translatey(300px);
+        opacity: 0;
+    } to {
+        transform: translatey(0);
+        opacity: 1;
+    }
+}
 
 
 
