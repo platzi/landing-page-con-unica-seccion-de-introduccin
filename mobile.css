@@ -1,0 +1,163 @@
+:root {
+    --open: 'Open Sans', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    background: hsl(257, 40%, 49%);
+}
+
+header {
+    display: flex;
+
+    width: 100%;
+    height: 80px;
+    background: transparent;
+
+    padding: 20px;
+}
+
+header img {
+    width: 100px;
+}
+
+body {
+    
+    background: url(./images/bg-mobile.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 90%;
+    height: 95vh;
+
+}
+
+.hero {
+    width: 90%;
+    height: 250px;
+
+    background: url(./images/illustration-mockups.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    margin-bottom: 30px;
+}
+
+.content-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    
+}
+
+.content h1 {
+    font-family: var(--poppins);
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+
+    margin: 15px 15px 5px 15px;
+}
+
+.content p {
+    font-family: var(--open);
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+
+    margin-bottom: 25px;
+    padding: 10px;
+    
+}
+
+.content button {
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    padding: 5px;
+    
+    font-family: var(--poppins);
+    font-size: 1.1rem;
+    color: hsl(257, 40%, 49%);
+
+    background-color: white;
+    border-radius: 30px;
+    border-style: none;
+
+    box-shadow: 4px 10px 5px -8px rgba(0,0,0,1);
+    cursor: pointer;
+
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    width: 100% ;
+    height: 90px;
+    margin-top: 40px;
+}
+
+.social--list {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.facebook {
+    background: url(./images/icons8-facebook-nuevo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.twitter {
+    background: url(./images/icons8-twitter.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.instagram {
+    background: url(./images/icons8-instagram.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
