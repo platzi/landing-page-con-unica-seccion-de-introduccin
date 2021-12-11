@@ -1,0 +1,150 @@
+/* HTML */
+
+html {
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --bg: #674bb1;
+}
+
+
+/* Body */
+
+body {
+    background: url("../images/bg-desktop.svg") var(--bg);
+    background-size: cover;
+}
+
+nav img {
+    padding: 1em;
+    width: 15em;
+}
+
+.containerBody {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin: 7.5% auto;
+}
+
+.containerBody section:first-child {
+    padding-right: 5em;
+}
+
+section img {
+    width: 35em;
+    min-width: 20em;
+}
+
+.contentSection {
+    width: 100%;
+}
+
+.contentSection h2 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.contentSection p {
+    font-size: 1.25em;
+    color: rgb(216, 216, 216);
+    padding-bottom: 1.25em;
+    /* text-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25); */
+}
+
+section {
+    color: white;
+}
+
+section a {
+    background-color: white;
+    padding: 1em 3.5em;
+    border: 0.15em solid white;
+    border-radius: 1.75em;
+    color: var(--bg);
+    font-size: 1.15em;
+    cursor: pointer;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+section a:hover {
+    opacity: 0.8;
+}
+
+footer {
+    display: flex;
+    justify-content: end;
+    padding: 0 2em;
+}
+
+.contentFooter {
+    width: 20em;
+    padding: 1em;
+    display: flex;
+    justify-content: end;
+}
+
+.contentFooter span {
+    border: 0.15em solid white;
+    border-radius: 50%;
+    padding: 0.75em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.5em;
+}
+
+.contentFooter span i {
+    width: 1em;
+    height: 1em;
+    color: white;
+}
+
+.contentFooter span:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.contentFooter span:hover i {
+    color: var(--bg);
+}
+
+@media (max-width: 1200px) {
+    nav img {
+        width: 10em;
+    }
+    .containerBody {
+        flex-direction: column;
+    }
+    section img {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 500px;
+    }
+    .containerBody section:first-child {
+        padding-right: 0;
+        display: flex;
+        align-items: center;
+    }
+    .contentSection {
+        width: 100%;
+    }
+    .containerBody section:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .contentSection h2 {
+        font-size: 2em;
+    }
+    .contentSection p {
+        font-size: 1em;
+    }
+    .contentFooter,
+    footer {
+        justify-content: center;
+    }
+}
